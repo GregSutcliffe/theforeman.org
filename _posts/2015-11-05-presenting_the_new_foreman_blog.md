@@ -2,9 +2,11 @@
 layout: post
 title: Presenting the new Foreman Blog!
 date: 2015-11-05 09:25:28
-author: Greg Sutcliffe
+author: gwmngilfen
 tags:
 - foreman
+- blog
+- contributing
 ---
 
 Some while ago, I realized that the entire Foreman website was written in

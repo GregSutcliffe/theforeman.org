@@ -2,7 +2,7 @@
 layout: post
 title: Foreman Community Newsletter - October 2015
 date: '2015-10-07T15:28:00.001+03:00'
-author: Ori Rabin
+author: orabin
 tags:
 - katello
 - openscap

@@ -12,7 +12,17 @@
         <h2>{{ page.title }}</h2>
         {% endif %}
         <p class="metadata">
-          <span class="author">{{ page.author }}</span> - <span class="date">{{ page.date | date: "%-d %B %Y" }}</span>
+          {% assign author = site.data.authors[page.author] %}
+          <span class="author">{% if author.name %}{{ author.name }}{% else %}Anonymous{% endif %}</span>&nbsp;|&nbsp;
+          <span class="date">{{ page.date | date: "%-d %B %Y" }}</span>
+
+          {% if author.irc %}
+            &nbsp;|&nbsp;<span class="author">IRC: {{ author.irc }}</span>
+          {% endif %}
+          {% if author.twitter %}
+            &nbsp;|&nbsp;<a href='http://twitter.com/{{ author.twitter }}'>@{{author.twitter}}</a></span>
+          {% endif %}
+
           {% if page.guest_post %}
           <span class="foreman-blue-infobox pull-right">Guest Post</span>&nbsp;
           {% endif %}
