@@ -284,10 +284,13 @@ The person who nominates you has to:
     * Anything else that shows the nominee should become a committer
   * Explain how the nominee is involved in the community and cares about the future of the project
 
-After the nomination is submitted, two other committers have to second your nomination. If no one objects in one week, you're a committer.
-If anyone objects or wants more information, that person needs to argue for the objection. After that, the committers discuss and come to a consensus within the next week.
+This nomination is public and should be made to the foreman-dev mailing list. After the nomination is submitted, two other committers have to second the nomination. If no one objects in one week, the nomination is accepted.
 
-In the event of a failed nomination, feedback is reported back to the nominee to help them improve. Feedback comes from a spokesperson from the whole committers group, not just an individual, to avoid potential rancor between the rejected nominee and an existing committer.
+Such objections may happen in public on the nomination thread. Understandably, however, not everyone is comfortable giving objections publicly. Therefore, it is acceptable for other committers to raise their concerns with the sponsor and/or other committers privately if they wish to do so. The sponsor is expected to update the nomination thread to show that it is on hold pending private concerns.
+
+Regardless, during any objections, private or public, the nomination is on hold, until the objections are resolved or the nomination is rejected. In the event of a failed nomination, the sponsor (as part of the discussing group) will know the grounds for the rejection, and can pass along constructive feedback to the candidate. Care should be taken to do this sensitively.
+
+#### How do I lose committer status?
 
 If you are inactive in the community for one year, we will remove you from the committers list and revoke your permission, but we will make a mention of you in theforeman.org list of previous committers.
 
